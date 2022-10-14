@@ -2,16 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - print last digit in random number
  * Return: 0
  */
 int main(void)
 {
-	int n;
+	int n, num;
 srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int num;
 num = n % 10;
 	if (num > 5)
 	{
