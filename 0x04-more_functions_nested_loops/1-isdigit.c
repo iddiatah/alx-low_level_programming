@@ -8,6 +8,6 @@ int _isdigit(int c)
 {
 	int ab = 0;
 		if (c >= '0' && c <= '9')
-			y = 1;
-		return (y);
+			ab = 1;
+		return (ab);
 }
